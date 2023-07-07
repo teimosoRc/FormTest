@@ -1,7 +1,7 @@
 # Тестовый вариант формы
 
 ## Стэк
--JS
--React
--React-router
--Redux-toolkit
+- JS
+- React
+- React-router
+- Redux-toolkit
