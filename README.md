@@ -7,6 +7,6 @@
 - React-router
 - Redux-toolkit
 
-### Deploy versel
+### Deploy verсel
 
 https://form-test-alpha.vercel.app/
