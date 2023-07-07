@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(221, 221, 221);
+}
+
+@font-face {
+  font-family: "SB Sans Text Mono";
+  src: url("./fonts/SBSansDisplayRegular.woff2");
+}
+@font-face {
+  font-family: "SB Sans Interface";
+  src: url("./fonts/SBSansInterface-Regular.woff2");
+}

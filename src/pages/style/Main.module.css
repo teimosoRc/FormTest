@@ -1,0 +1,124 @@
+.container {
+  background-color: #ffffff;
+  margin: 24px calc(50% - 900px / 2) auto;
+
+  min-height: 73vh;
+
+  border-radius: 12px 12px 0px 0px;
+}
+
+.containerForm input {
+  display: flex;
+  width: 400px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 12px;
+  gap: 12px;
+  flex-direction: row;
+  align-items: flex-start;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.containerForm {
+  margin-left: 24px;
+}
+
+.containerForm label {
+  width: 400px;
+  height: 20px;
+  font-family: "SB Sans Interface";
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.divinder {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 24px;
+  height: 0px;
+}
+
+.error {
+  color: rgb(255, 37, 37);
+  font-size: 14px;
+}
+
+.avatar {
+  justify-content: center;
+
+  width: 80px;
+  height: 80px;
+  left: 24px;
+  top: 25px;
+  background: #d5e4f7;
+  border-radius: 100px;
+  margin: 25px 24px auto;
+
+  font-family: "SB Sans Text Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  color: #212830;
+
+  border-style: none;
+}
+
+.name {
+  margin-top: 38px;
+  margin-bottom: 8px;
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.head {
+  display: flex;
+}
+
+.link a {
+  margin-right: 17.6px;
+
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  color: #5558fa;
+}
+.folder {
+  margin-right: 5.6px;
+
+  left: 10%;
+  right: 10%;
+  top: 15%;
+  bottom: 15%;
+}

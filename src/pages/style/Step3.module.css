@@ -1,0 +1,168 @@
+.container {
+  position: absolute;
+  width: 900px;
+  min-height: 500px;
+  min-width: 900px;
+  left: calc(50% - 900px / 2);
+  top: 24px;
+
+  background: #ffffff;
+  border-radius: 24px;
+
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.stepper {
+  margin: 62px 110px;
+}
+
+.tip {
+  display: flex;
+  margin: 4px 110px;
+
+  font-size: 12px;
+  line-height: 16px;
+
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.48);
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  margin: 4px 110px auto;
+}
+
+.textArea label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 20px;
+
+  width: 680px;
+  height: 20px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #333333;
+}
+
+.textArea textarea {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+
+  background: #ffffff;
+
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+
+  font-size: 14px;
+  line-height: 20px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.click {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 109px;
+  margin-left: 110px;
+}
+
+.formStep3 {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 110px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.16);
+}
+.modal {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 24px;
+  top: calc(50% - 312px / 2 - 0.5px);
+  margin-left: calc(50% - 460px / 2);
+  min-width: 460px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.succ {
+  margin-left: 97px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 16px;
+  gap: 10px;
+
+  width: 80px;
+  height: 80px;
+  margin-left: 190px;
+}
+
+.err {
+  margin-left: 32px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #333333;
+}
